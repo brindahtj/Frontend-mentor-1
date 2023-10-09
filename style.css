@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,800&family=Mooli&family=Young+Serif&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(30, 38%, 92%);
+  }
+  .grid--container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 40%;
+
+  }
+  .roundborder{
+    border-radius: 10px;
+
+  }
+  .img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 65vh;
+  }
+ 
+  .right {
+    display: grid;
+    place-items: center;
+    padding: 0 20px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+  }
+
+ .categorie{
+    color: grey;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .title{
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'Fraunces';
+    margin: 20px 0px;
+
+
+  }
+ 
+  .text{
+    color: grey;
+    margin: 20px 0px;
+    line-height: 1.8em;
+
+  }
+  
+.prix{
+  font-weight: 800;
+  font-size: xx-large;
+  font-family: 'Fraunces';
+  color: rgb(61, 129, 104);
+  margin: 20px 0px;
+}
+.barre{
+  text-decoration: line-through;
+  color: grey;
+}
+.btn{
+  width: 100%;
+  padding:  15px ;
+  margin-top: 20px;
+  background-color:rgb(26,64,49);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 0px;
+
+}
+
